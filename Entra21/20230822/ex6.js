@@ -21,8 +21,8 @@ three = Number(prompt("Pontuação arremesso três: "))
 
 totalPontos = one + two + three
 
-switch(totalPontos){
-  case (totalPontos = 15):
+switch(true){
+  case (totalPontos == 15):
     message = `Deus da Peteca!`
     break
 
@@ -38,12 +38,11 @@ switch(totalPontos){
     message = `Pseudo Petequeiro!`
     break
 
-  case(totalPontos = 0):
+  case(totalPontos < 1 ):
     message = `WTF, Petequeiro de merda!`
     break
 
   default:
-    message = "LOOOSER!"
     break
 }
 
