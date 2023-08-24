@@ -9,10 +9,10 @@ nome da espécie e a sua população (total de indivíduos). Populações entre 
  especie = prompt("Entre com o nome da especie: ")
  individuos = Number(prompt("Entre com o numero de individuos do(a) " + especie))
 
- if(individuos<500 || individuos>200){
-    alert("Espercie criticamente em perigo")
- }if(individuos<1000 || individuos>500){
+ if(individuos <= 500 && individuos > 200){
+    alert("Especie criticamente em perigo")
+ }else if(individuos <= 1000 && individuos > 500){
     alert("Especie em perigo")
- }if(individuos<5000 || individuos>1000){
+ }else if(individuos <= 5000 && individuos > 1000){
     alert("Especie Vulneravel!")
  }
