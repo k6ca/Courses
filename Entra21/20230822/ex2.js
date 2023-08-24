@@ -8,34 +8,34 @@
     -   Geração Alfa (a partir de 2011)*/
 
     let anoNascimento
-    let message = " "
+    let message
     
     anoNascimento = Number(prompt("Entre com sua data de nascimento, com 4 digitos: "))
 
-    switch(anoNascimento)
+    switch(true)
     {
-        case (1945 <= anoNascimento):
-            message = ("Sem geração")
+        case (1945 >= anoNascimento):
+            message = "Sem Geracao"
             break
 
         case (anoNascimento > 1945 && anoNascimento <= 1964):
-            geracao = "Baby Boomers Rocks!"
+            message = "Baby Boomers Rocks!"
             break
 
         case (anoNascimento > 1964 && anoNascimento <= 1980):
-            geracao = "Geração X"
+            message = "Geração X"
             break
 
         case (anoNascimento > 1980 && anoNascimento <= 1996):
-            geracao = "Millennials"
+            message = "Millennials"
             break
 
         case (anoNascimento > 1996 && anoNascimento <= 2010):
-            geracao = "Geração Z"
+            message = "Geração Z"
             break
         
         case (anoNascimento > 2010):
-            geracao = "Geração Alfa"
+            message = "Geração Alfa"
             break
         
         default:
