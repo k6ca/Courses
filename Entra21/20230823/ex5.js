@@ -5,3 +5,5 @@ Desenvolva um programa que calcule e mostre os dados diários (segunda à sexta)
  térmica semanal, mostrando os resultados ao final. Exemplo: Digitar o nome da cidade ou estado, 
  perguntar para os cinco dias da semana a maior temperatura do dia e a menor. Mostrar as amplitudes de 
  cada dia e a média.*/
+
+ 
