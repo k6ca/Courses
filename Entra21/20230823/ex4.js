@@ -13,7 +13,7 @@ let vinil, vinilMaxNome, viniMinNome
 let viniQ = 0, media = 0, viniMax = 0, viniMin = 1000
 let compras = "Você comprou os seguintes Vinis, "
 
-while(200 > valor){
+while(valor <= 200){
     vinil = prompt("Qual o nome do vinil?")
     custo = Number(prompt("Qual o valor do vinil?"))
 
