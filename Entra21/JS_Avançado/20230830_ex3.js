@@ -1,6 +1,9 @@
 /*Crie uma função que determine quantos números primos existem dentro de um
 intervalo que o usuário informar. Utilize uma abordagem de repetição com for ou while.*/
 
+
+/*Errado*/
+
 let quant = 0, divisor = 2, nPrimo=0, ehPrimo=0
 let numUser = 0
 let numInicial, numFinal
