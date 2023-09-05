@@ -4,3 +4,15 @@
 -   Se houve alistamento deve ser digitado “S” e se não houve alistamento “N”. 
 -   Após digitar tudo, deve-se mostrar na tela o último ano que houve alistamento. 
 -   Caso não tenha ocorrido alistamento, mostrar “Não houve alistamento nos últimos 10 anos”*/
+
+let anoAlistamento = []
+let semAlistamento = []
+
+for(i=2000; i<=2009; i++){
+    ano = prompt(`Houve alistamento em ${i}:`)
+    if(ano === 's'){
+        anoAlistamento.push(i)
+    }else{
+        semAlistamento.push(i)
+    }
+}
