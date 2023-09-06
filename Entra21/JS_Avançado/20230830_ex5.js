@@ -10,6 +10,8 @@ Digite o primeiro número:
 Digite o segundo número:
 Qual operação deseja realizar? 1 – Soma 2 – Subtração 3 – Multiplicação 4 - Divisão*/
 
+/*CóDIGO CORRETO*/
+
 let primeiroNumero, segundoNumero, resultado, operacao
 
 function soma(x, y){

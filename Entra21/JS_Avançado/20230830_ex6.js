@@ -4,6 +4,8 @@
     -   que por sua vez recebe como argumento uma soma e uma quantidade e retorna a média.
     -   Armazene o resultado da média em uma variável e exiba por um alert.*/
 
+/*CóDIGO CORRETO*/
+
 let x, y, z
 let saida
 

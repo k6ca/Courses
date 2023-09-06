@@ -2,6 +2,8 @@
 -   , e identifica o maior através de uma função
 -    e o menor número através de outra função e depois os exibe por um alert.*/
 
+/*CóDIGO CORRETO*/
+
 let x, y, z
 let maior, menor, maiorNum, menorNum
 

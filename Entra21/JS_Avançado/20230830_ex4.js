@@ -1,6 +1,8 @@
 /*Utilizando funções, fazer um sistema que receba um número e retorne se ele é par ou
 ímpar.*/
 
+/*CóDIGO CORRETO*/
+
 let numUser = 0
 let par = true
 
