@@ -6,6 +6,9 @@
     -   Terreno mansão: largura: 100m / p´rofunidade: 100m;
     -   Terreno comercial: largura: 40m / profundidade: 40m
 */
+
+/*CÓDIGO CORRETO*/
+
 let padrao, sobrado, mansao, comercial
 
 function terreno(largura=0, profundidade=0){

@@ -3,6 +3,8 @@ a qual
     -   deve receber um valor de base e altura como argumento,
     -   calcular a área pela função área e divide o resultado por 2 para ter o retorno correto.*/
 
+/*CÓDIGO CORRETO*/
+
 let areaTriangulo
 let largTriangulo, profTriangulo
 
