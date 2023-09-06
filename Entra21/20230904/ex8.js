@@ -7,12 +7,25 @@
 
 let anoAlistamento = []
 let semAlistamento = []
+let x = 0
 
 for(i=2000; i<=2009; i++){
     ano = prompt(`Houve alistamento em ${i}:`)
-    if(ano === 's'){
-        anoAlistamento.push(i)
-    }else{
-        semAlistamento.push(i)
+    switch(ano){
+        case 's':
+            anoAlistamento.push(i)
+            x++
+            break
+        case 'n':
+            semAlistamento.push(i)
+            break
+        default:
+            alert("A resposta não é valida!")
+            i--
+            break
     }
+    
 }
+ultimo = anoAlistamento[x]
+console.log(ultimo)
+console.log(semAlistamento)

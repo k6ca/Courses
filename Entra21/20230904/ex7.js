@@ -28,3 +28,9 @@ for(i=0; i<5; i++){
 
 console.log(menores)
 console.log(resultado)
+
+
+let vetor =[]
+let numeroDigitado, maiorNumero
+let somaMultiplicacao
+
