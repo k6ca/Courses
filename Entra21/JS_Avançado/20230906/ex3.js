@@ -1,0 +1,2 @@
+/*Crie um Array numérico com 10 elementos e a partir dele utilize os métodos mostrados para verificar se todos são ímpares. Além disso 
+-   crie outro Array a partir dele onde os novos elementos devem ser os antigos ao quadrado.*/

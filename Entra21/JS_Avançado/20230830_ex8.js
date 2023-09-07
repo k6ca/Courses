@@ -4,20 +4,18 @@ let numUser
 let quant = 0, nPrimo = 0, ehPrimo = 0
 let divisor = 2;
 
-function numPrimo(num) {
-    for(num; num != 0; num--){
-        for (divisor; divisor < num; divisor++) {
-            if (num % divisor === 0){
-                nPrimo++
-            }else{
-                ehPrimo++
-            }
-    
-        }
+function numeroPrimo(num) {
+    for(i=2; i<num; i++) {
+      if(num % i === 0) {
+        nPrimo++
+        break
+      }else{
+        ehPrimo++
+        listPrimos.push(numInicial)
+        break
+      }
     }
-
-    return nPrimo, ehPrimo
-}
+  }
 
 numUser = Number(prompt("Entre com um numero: "))
 numPrimo(numUser)
