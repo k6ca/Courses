@@ -1,30 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+<font color="blue">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body bgcolor="black">
-    <font color="blue"
+    
     <center>
-        <h1 style="bold">CADASTRO DE PERFIL</h1><br><br>
+        <h1>CADASTRO DE PERFIL</h1><br><br>
         <img src="gorpo2.png" width=250px><br>
-
+        <div class="dados" align="center">
         <br>
-            <label>USERNAME: </label><input inputmode="email" >
+            <label style="margin-right: 16px">USERNAME: </label><input style="margin-left: 5px" inputmode="email" size="50px">
         <br>            
-            <label>PASSWORD: </label><input inputmode="password" >
+            <label style="margin-right: 16px">PASSWORD: </label><input style="margin-left: 6px" inputmode="password" size="50px">
         <br><br>
-            <label>ENDEREÇO: </label><input inputmode="text" >
+            <label style="margin-right: 16px">ENDEREÇO: </label><input style="margin-left: 5px" inputmode="text" size="50px" >
         <br>
-            <label>CIDADE: </label><input inputmode="text" >
-        <!-- <input type="checkbox"><label>Teste</label><br>
-        <input type="radio" class="try"><label>Sim</label><br>
-        <input type="radio" class="try"><label>Não</label><br>
-        <button>salvar</button><br> -->
+            <label style="margin-right: 16px">CIDADE: </label><input style="margin-left: 5px" inputmode="text" size="50px">
+        </div>
+
+        <br><br>
+        
+        <div class="nacao">
+        <input type="radio" name="nacionalidade"><label>Brasileiro</label>
+        <input type="radio" name="nacionalidade"><label>Estrangeiro</label>
+        </div>
+        
+        <br><br>
+
+        <div class="confimar">
+        <input type="checkbox" name="confirmacao"><label>Confirmo a veracidade das informações fornecidas</label>
+        <br><br>
+        <button style="margin-right: 16px" type="submit">ABORTAR MISSÃO</button>
+        <button style="margin-right: 16px" type="submit">SALVAR</button>
+        <br> 
+        </div>
         
         
     </center>
 </body>
+</font>
 </html>
