@@ -19,7 +19,7 @@ for(i = 0; i < 3; i++){
             }else{
                 countUm++
             }
-    }
+        }
 }
 
 alert(`Temos ${countUm} bombas e você precisa fazer ${countZero} pontos.`)
