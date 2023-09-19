@@ -1,9 +1,25 @@
-﻿string[] orderIDs = { "B123", "C234", "A345", "C15", "B177", "G3003", "C235", "B179" };
+﻿/*
+   This code reverses a message, counts the number of times 
+   a particular character appears, then prints the results
+   to the console window.
+ */
 
-foreach (string orderID in orderIDs)
+string originalMessage = "The quick brown fox jumps over the lazy dog.";
+
+char[] message = originalMessage.ToCharArray();
+Array.Reverse(message);
+
+int letterCount = 0;
+
+foreach (char letter in message)
 {
-    if (orderID.StartsWith("B"))
+    if (letter == 'o')
     {
-        Console.WriteLine(orderID);
+        letterCount++;
     }
 }
+
+string newMessage = new String(message);
+
+Console.WriteLine(newMessage);
+Console.WriteLine($"'o' appears {letterCount} times.");
