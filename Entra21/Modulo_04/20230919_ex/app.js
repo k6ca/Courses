@@ -23,7 +23,7 @@ function mediaPonderada(){
 
     nota = (p1+p2+p3)
 
-    mensagem = `Suas notas foram: \n ${ativUm}\tPeso: ${pesoUm.value}\tNota: ${notaUm.value}\tMedia Ponderada: ${p1}\n ${ativDois}\tPeso: ${pesoDois.value}\tNota: ${notaDois.value}\tMedia Ponderada: ${p2}\n ${ativTres}\tPeso: ${pesoTres.value}\tNota: ${notaTres.value}\tMedia Ponderada: ${p3}\n\n E sua nota final é ${nota}`
+    mensagem = `Suas notas foram: \n ${ativUm.value}\tPeso: ${pesoUm.value}\tNota: ${notaUm.value}\tMedia Ponderada: ${p1}\n ${ativDois.value}\tPeso: ${pesoDois.value}\tNota: ${notaDois.value}\tMedia Ponderada: ${p2}\n ${ativTres.value}\tPeso: ${pesoTres.value}\tNota: ${notaTres.value}\tMedia Ponderada: ${p3}\n\n E sua nota final é ${nota}`
 
     //  mensagem = (`teste ${p1} `)
 
