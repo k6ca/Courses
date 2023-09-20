@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Média Ponderada</title>
+    
+</head>
+<body>
+    <center>
+    <header>
+        <h1>Média Ponderada</h1>
+    </header>
+
+    <nav>
+        <table>
+            <tbody>
+                <tr>
+                    <th> </th>
+                    <th> </th>
+                    <th> Peso </th>
+                    <th> Nota </th>
+                </tr>
+
+                <tr>
+                    <td> Prova 1 </td>
+                    <td ><input id="ativUm" placeholder="Nome atividade" type="text"></td>
+                    <td><input id="pesoUm" placeholder="Peso atividade 1" type="number" min="0"></td>
+                    <td><input id="notaUm" placeholder="Nota atividade 3" type="number" min="0"></td>
+                </tr>
+
+                <tr>
+                    <td> Prova 2 </td>
+                    <td><input id="ativDois" placeholder="Nome atividade" type="text"></td>
+                    <td><input id="pesoDois" placeholder="Peso atividade 2" type="number" min="0"></td>
+                    <td><input id="notaDois" placeholder="Nota atividade 3" type="number" min="0"></td>
+                </tr>
+
+                <tr>
+                    <td> Prova 3 </td>
+                    <td><input id="ativTres" placeholder="Nome atividade" type="text"></td>
+                    <td><input id="pesoTres" placeholder="Peso atividade 3" type="number" min="0"></td>
+                    <td><input id="notaTres" placeholder="Nota atividade 3" type="number" min="0"></td>
+                </tr>
+
+            </tbody>
+        </table>
+        <br><br>
+        <button onclick="mediaPonderada()">Cacular</button>
+        <script src="app.js"></script>
+    </nav>
+</center>
+</body>
+</html>
