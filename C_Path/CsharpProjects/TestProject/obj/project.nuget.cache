@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "0QNazixqSxXlH0je0tblspZe7L3/NJ75bn+FosMt9jcBYlA4lWXCCKrL/Yuk/V1CaL21HfbGi7L1XEHNGdxUtg==",
   "success": true,
   "projectFilePath": "C:\\Users\\PC\\source\\repos\\Courses\\C_Path\\CsharpProjects\\TestProject\\TestProject.csproj",
+=======
+  "dgSpecHash": "/RlDjdn2TkE0RAp7AxgOhxnPxHBWEqlWvgfOJ3z0MFKVGbqvKVTTB9ubIhWvny4t2R/FNFy3iF0Jbeo/w6mBHA==",
+  "success": true,
+  "projectFilePath": "c:\\Users\\eduardo_d_vieira\\Downloads\\EDV\\Courses\\C_Path\\CsharpProjects\\TestProject\\TestProject.csproj",
+>>>>>>> 6f959024374cb794654d8191f2007bd1b61f1ca4
   "expectedPackageFiles": [],
   "logs": []
 }

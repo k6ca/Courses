@@ -8,4 +8,8 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = TestProject
+<<<<<<< HEAD
 build_property.ProjectDir = C:\Users\PC\source\repos\Courses\C_Path\CsharpProjects\TestProject\
+=======
+build_property.ProjectDir = c:\Users\eduardo_d_vieira\Downloads\EDV\Courses\C_Path\CsharpProjects\TestProject\
+>>>>>>> 6f959024374cb794654d8191f2007bd1b61f1ca4
