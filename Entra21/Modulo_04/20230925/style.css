@@ -1,0 +1,53 @@
+html{
+    height: 100%;
+}
+
+body{
+    height: 100%;
+    margin: 0;
+}
+
+header{
+    height: 20%;
+    background-color: yellowgreen;
+    margin: 0;
+}
+
+main{
+    height: 60%;
+    background-color: lightseagreen;
+    display: flex;
+}
+
+aside{
+    height: 100%;
+    width: 30%;
+    background-color: yellow;
+}
+
+section{
+    height: 100%;
+    width: 70%;
+    background-color: orange;
+}
+
+footer{
+    height: 20%;
+    background-color: lightgreen;
+    margin: 0;
+}
+
+.btns{
+    height: 50;
+    border: red;
+    border-radius: 8px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: small;
+    cursor: pointer;
+    
+}
+.bts:hover{
+    color: white;
+    background-color: black;
+
+}
