@@ -1,53 +1,99 @@
+@font-face {
+    font-family: "BackToTheFuture";
+    src: url(Futuristic\ Stylish.otf);
+}
+
+
+
+
+
 html{
+
     height: 100%;
+
 }
 
 body{
+
     height: 100%;
     margin: 0;
+    background-color: rebeccapurple;
+
 }
 
 header{
-    height: 20%;
-    background-color: yellowgreen;
-    margin: 0;
+
+    height: 5%;
+    background-color: goldenrod;
+
 }
 
 main{
-    height: 60%;
-    background-color: lightseagreen;
+
+    height: 90%;
+    background-color: rebeccapurple;
     display: flex;
+
 }
 
 aside{
+
     height: 100%;
     width: 30%;
-    background-color: yellow;
+    /* background-color: cornflowerblue; */
+    background-image: url(background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
 section{
+
     height: 100%;
     width: 70%;
-    background-color: orange;
+    background-color:darkkhaki;
+
 }
 
 footer{
-    height: 20%;
-    background-color: lightgreen;
-    margin: 0;
+
+    height: 5%;
+    background-color:crimson;
+
 }
 
 .btns{
-    height: 50;
-    border: red;
-    border-radius: 8px;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: small;
+
+    height: 35px;
+    border-radius: 12px;
+    border: solid 0px black;
     cursor: pointer;
-    
+    color: rebeccapurple;
+    font-weight: bolder;
+
 }
-.bts:hover{
+
+.btns:hover{
+
     color: white;
     background-color: black;
+    scale: 1.05;
+    transition: 0.5s;
 
+}
+
+#btnAside{
+
+    height: 35px;
+    border-radius: 12px;
+    border: solid 0px black;
+    cursor: pointer;
+    opacity: 40%;
+    font-weight: bolder;
+    font-family: 'Calligraffitti', cursive;
+
+}
+#btnTwo{
+    margin-top: 3px;
+    padding-bottom: 15px;
 }

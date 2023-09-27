@@ -1,0 +1,50 @@
+html{
+    height: 100%;
+
+}
+
+body{
+    height: 100%;
+    margin: 0;
+    background-color: black;
+    display: flex;
+    
+    justify-content: space-around;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+signIn{
+    width: 50%;
+    background-color: white;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+signUp{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #FF5756;
+    color: white;
+    text-align: center;
+    text-decoration-color: white;
+    align-items: center;
+
+
+}
+
+#btn{
+    height: 30px;
+    width: 80px;
+    border-radius: 50px;
+    border: solid 1px white;
+    color: white;
+    background-color: #FF5756;
+    margin-top: 40px;
+}
