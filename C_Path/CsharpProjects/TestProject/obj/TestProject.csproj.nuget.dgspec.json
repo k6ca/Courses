@@ -1,19 +1,6 @@
 {
   "format": 1,
   "restore": {
-<<<<<<< HEAD
-    "C:\\Users\\PC\\source\\repos\\Courses\\C_Path\\CsharpProjects\\TestProject\\TestProject.csproj": {}
-  },
-  "projects": {
-    "C:\\Users\\PC\\source\\repos\\Courses\\C_Path\\CsharpProjects\\TestProject\\TestProject.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\PC\\source\\repos\\Courses\\C_Path\\CsharpProjects\\TestProject\\TestProject.csproj",
-        "projectName": "TestProject",
-        "projectPath": "C:\\Users\\PC\\source\\repos\\Courses\\C_Path\\CsharpProjects\\TestProject\\TestProject.csproj",
-        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PC\\source\\repos\\Courses\\C_Path\\CsharpProjects\\TestProject\\obj\\",
-=======
     "c:\\Users\\eduardo_d_vieira\\Downloads\\EDV\\Courses\\C_Path\\CsharpProjects\\TestProject\\TestProject.csproj": {}
   },
   "projects": {
@@ -25,15 +12,9 @@
         "projectPath": "c:\\Users\\eduardo_d_vieira\\Downloads\\EDV\\Courses\\C_Path\\CsharpProjects\\TestProject\\TestProject.csproj",
         "packagesPath": "C:\\Users\\eduardo_d_vieira\\.nuget\\packages\\",
         "outputPath": "c:\\Users\\eduardo_d_vieira\\Downloads\\EDV\\Courses\\C_Path\\CsharpProjects\\TestProject\\obj\\",
->>>>>>> 6f959024374cb794654d8191f2007bd1b61f1ca4
         "projectStyle": "PackageReference",
         "configFilePaths": [
-<<<<<<< HEAD
-          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-=======
           "C:\\Users\\eduardo_d_vieira\\AppData\\Roaming\\NuGet\\NuGet.Config",
->>>>>>> 6f959024374cb794654d8191f2007bd1b61f1ca4
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
