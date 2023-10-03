@@ -1,0 +1,62 @@
+html{
+    height: 100%;
+}
+body{
+    height: 100%;
+    margin: 0;
+    
+}
+
+ .grid-container{
+    height: 100%;
+    display:grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 10% 10% 10% 10% 10%;
+    row-gap: 30px;
+    column-gap: 50px;
+   
+} 
+
+.grid-items{
+    height:100%;
+    border: dashed red 5px;
+    text-align: center;
+    text
+    
+}
+
+#item1  {
+    
+}
+
+#item2  {
+    
+}
+
+#item3  {
+    
+}
+
+#item4  {
+    
+}
+
+#item5  {
+    
+}
+
+#item6  {
+    
+}
+
+#item7  {
+    
+}
+
+#item8  {
+    
+}
+
+#item9  {
+   
+}

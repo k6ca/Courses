@@ -1,0 +1,90 @@
+html{
+    height: 100%;
+}
+body{
+    height: 100%;
+    margin: 0;
+    
+}
+
+ .grid-container{
+    height: 100%;
+    display:grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto auto auto auto auto;
+    row-gap: 10px;
+    column-gap: 10px;
+   
+} 
+
+.grid-items{
+    height:100%;
+    border: dotted lightgreen 2px;
+    text-align: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+}
+
+#item0, #item14  {
+    height: 10%;
+    grid-column-start: 1;
+    grid-column-end: 6;
+}
+
+#item1  {
+    
+    background-image: url(./img/xboxone.jpg);
+    background-size: contain;
+}
+
+#item2  {
+    
+    background-image: url(./img/xbox.jpg);
+    background-size: contain;
+}
+
+#item3  {
+    
+    background-image: url(./img/ps2.jpg);
+    background-size: contain;
+}
+
+#item4  {
+    background-image: url(./img/supermario.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100%;
+    grid-column-start: 4;
+    grid-column-end: 6;
+    grid-row-start: 2;
+    grid-row-end: 6;
+}
+
+#item5  {
+    
+    background-image: url(./img/ps1.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#item6  {
+    
+    background-image: url(./img/nintendo.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#item7  {
+    
+    background-image: url(./img/nintendinho.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#item8  {
+    
+    background-image: url(./img/gamecube.jpg);
+    background-size: contain;
+}
+
