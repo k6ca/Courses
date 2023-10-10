@@ -1,15 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/RlDjdn2TkE0RAp7AxgOhxnPxHBWEqlWvgfOJ3z0MFKVGbqvKVTTB9ubIhWvny4t2R/FNFy3iF0Jbeo/w6mBHA==",
+  "dgSpecHash": "OsLZ5R/yGj4dL257xW5KyWET0o5PLhyi6A3DUWDe2Innid3pdgGBeba9vWK4qvzJ3HkJPRiHl6mHIkLpEOQzIw==",
   "success": true,
-  "projectFilePath": "c:\\Users\\eduardo_d_vieira\\Downloads\\EDV\\Courses\\C_Path\\CsharpProjects\\TestProject\\TestProject.csproj",
+  "projectFilePath": "C:\\Users\\eduardo_d_vieira\\Downloads\\EDV\\Courses\\C_Path\\CsharpProjects\\TestProject\\TestProject.csproj",
   "expectedPackageFiles": [],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problema ao ler o arquivo de cache c:\\Users\\eduardo_d_vieira\\Downloads\\EDV\\Courses\\C_Path\\CsharpProjects\\TestProject\\obj\\project.nuget.cache: Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  "logs": []
 }

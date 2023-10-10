@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\eduardo_d_vieira\\Downloads\\EDV\\Courses\\C_Path\\CsharpProjects\\TestProject\\TestProject.csproj": {}
+    "C:\\Users\\eduardo_d_vieira\\Downloads\\EDV\\Courses\\C_Path\\CsharpProjects\\TestProject\\TestProject.csproj": {}
   },
   "projects": {
-    "c:\\Users\\eduardo_d_vieira\\Downloads\\EDV\\Courses\\C_Path\\CsharpProjects\\TestProject\\TestProject.csproj": {
+    "C:\\Users\\eduardo_d_vieira\\Downloads\\EDV\\Courses\\C_Path\\CsharpProjects\\TestProject\\TestProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\eduardo_d_vieira\\Downloads\\EDV\\Courses\\C_Path\\CsharpProjects\\TestProject\\TestProject.csproj",
+        "projectUniqueName": "C:\\Users\\eduardo_d_vieira\\Downloads\\EDV\\Courses\\C_Path\\CsharpProjects\\TestProject\\TestProject.csproj",
         "projectName": "TestProject",
-        "projectPath": "c:\\Users\\eduardo_d_vieira\\Downloads\\EDV\\Courses\\C_Path\\CsharpProjects\\TestProject\\TestProject.csproj",
+        "projectPath": "C:\\Users\\eduardo_d_vieira\\Downloads\\EDV\\Courses\\C_Path\\CsharpProjects\\TestProject\\TestProject.csproj",
         "packagesPath": "C:\\Users\\eduardo_d_vieira\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\eduardo_d_vieira\\Downloads\\EDV\\Courses\\C_Path\\CsharpProjects\\TestProject\\obj\\",
+        "outputPath": "C:\\Users\\eduardo_d_vieira\\Downloads\\EDV\\Courses\\C_Path\\CsharpProjects\\TestProject\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\eduardo_d_vieira\\AppData\\Roaming\\NuGet\\NuGet.Config",
