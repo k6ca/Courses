@@ -1,0 +1,13 @@
+body{
+    background: white;
+    text-align: center;
+}
+    
+h1, span{
+    color: black;
+}
+
+img{
+    margin: auto;
+    display: block;
+}
