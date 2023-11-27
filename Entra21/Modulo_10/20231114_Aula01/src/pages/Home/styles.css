@@ -1,5 +1,8 @@
 body{
     background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
 }
 
@@ -8,6 +11,8 @@ main{
     height: 486px;
     top: 64px;
     left: 199px;
+    justify-content: center;
+    align-items: center;
 }
 
 img{
@@ -26,6 +31,11 @@ h1{
     text-align: center;
     color: #3F3D56;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    width: 494px;
+    height: 40px;
+    top: 334px;
+    left: 265px;
+
     
 }
 
@@ -33,16 +43,32 @@ strong{
     color: #EE24FF;
 }
 
-
+section{
+    width: 540px;
+    height: 107px;
+    top: 390px;
+    left: 249px;
+}
 
 h2{    
-    font-family: 'Dosis', sans-serif;
-    font-size: 32px;
-    font-weight: 500;
-    line-height: 40px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
     letter-spacing: 0em;
     text-align: center;
+    color: #828282;
 }
+
+em{
+    font-weight: 700;
+    font-style: normal;
+}
+b{
+    color: #3F3D56;
+    font-weight: 700;
+}
+
 
 h3{   
     font-family: 'Poppins', sans-serif;
