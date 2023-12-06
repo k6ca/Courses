@@ -1,15 +1,23 @@
 {
-  "name": "modulo_09",
+  "name": "projeto-novo",
   "version": "1.0.0",
-  "description": "",
-  "main": "script.js",
+  "description": "Projeto para o curso de React Entra 21",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \\\"Error: no test specified\\\" && exit 1"
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "k6ca\\courses\\entra21\\modulo_09"
+  },
+  "keywords": [
+    "react",
+    "entra21",
+    "projeto"
+  ],
+  "author": "Eduardo D Vieira",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.18.2",
     "readline-sync": "^1.4.10"
   }
 }
